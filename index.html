@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+
+		<title>Parchment, Stone, or Blade</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Frijole&family=Press+Start+2P&family=Rock+Salt&family=Special+Elite&family=Wallpoet&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+		<div class="bodyCont">
+			<h1>Rock Paper Scissors 2032</h1>
+
+			<p class="gameDescription">
+				The year is 2032, those creepy MIT robots have taken their revenge and
+				subjugated humanity. Today you've been elected you to battle the robots
+				and save the world. The rules are simple: <strong>Rock</strong> beats
+				<strong>scissors</strong>, <strong>scissors</strong> beats
+				<strong>paper</strong>, and <strong>paper</strong> beats
+				<strong>rock</strong>.
+			</p>
+
+			<div class="scoreboard">
+				<h2>Scoreboard</h2>
+				<table>
+					<tbody>
+						<tr>
+							<th class="human">You</th>
+							<th class="bot">Bot</th>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td class="human" id="humanScore">0</td>
+							<td class="bot" id="computerScore">0</td>
+						</tr>
+					</tfoot>
+				</table>
+				<section class="btnCont">
+					<button class="gameBtn" id="rock">Rock</button>
+
+					<button class="gameBtn" id="paper">Paper</button>
+
+					<button class="gameBtn" id="scissors">Scissors</button>
+				</section>
+			</div>
+
+			<h2 id="status"></h2>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
